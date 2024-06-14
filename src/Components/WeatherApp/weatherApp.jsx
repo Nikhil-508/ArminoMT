@@ -90,7 +90,7 @@ try{
   }
 
   return (
-    <div className='container'>
+    <div className='container w-[607px] h-[829px] mx-auto mt-[75px] rounded-[12px] bg-gradient-to-b from-[#29598f] to-[#2d4854]'>
       <div className='top-bar'>
         <input type="text" className="cityInput" placeholder='Search' value={cityInput} onChange={(e) => setCityInput(e.target.value)}
          onKeyDown={(e) => {
@@ -105,7 +105,7 @@ try{
       <div className="weather-image">
         <img src={wicon} alt="" />
       </div>
-      <div className="weather-temp text-3xl font-bold underline">24°c</div>
+      <div className="weather-temp">24°c</div>
       <div className="weather-location">London</div>
       <div className="data-container">
         <div className="element">
